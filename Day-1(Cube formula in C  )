@@ -1,0 +1,19 @@
+# include<stdio.h>
+int main(){  
+   int a ,b ,c;
+   printg("Note : If it is square it will be l^3 i.e. same value for a , b , c )
+   printf("enter value of a(length)");
+   scanf("%d",&a);
+
+
+   printf("enter value of b(breadth)");
+   scanf("%d",&b);
+
+   printf("enter value of c(height)");
+   scanf("%d",&c);
+
+   printf("Cube  is %d", a*b*c);
+
+    return 0;
+
+}
