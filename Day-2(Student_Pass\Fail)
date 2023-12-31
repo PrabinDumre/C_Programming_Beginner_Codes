@@ -1,0 +1,13 @@
+int main(){
+    int mark;
+    printf("enter marks secured by student :");
+    scanf("%d",&mark);
+    if (mark>30 && mark<=100){
+      printf("Student is pass");
+    } else if(mark>=0 &&  mark<=30) {
+      printf("Student is fail");
+    } else {
+      printf("Wrong mark");
+    }
+return 0;
+}
